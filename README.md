@@ -3,9 +3,15 @@
 
 ## Startando a aplicação
 
-No terminal, digite `git clone https://github.com/samirortiz/personare-api.git -b samir-ortiz`
+No terminal, digite `git clone https://github.com/samirortiz/personare-api-v2.git -b samir-ortiz`
 Ainda no terminal, na raíz do projeto clonado, digite `docker-compose up`
-Acesse http://localhost:8000/currency/100/BRL/USD/5.7
+Acesse a URL <http://localhost:8000/currency/100/BRL/USD/5.7> que foi definida da seguinte forma, conforme exemplo:
+
+1. `/currency/` é o único método disponível, responsável pela conversão de moedas
+2. `100` é a quantidade ou valor da moeda que você quer converter
+3. `BRL` é a moeda origem, que você tem e quer converter
+4. `USD` é a moeda destino, para qual você está convertendo o seu dinheiro atual
+5. `5.7` é a cotação da moeda destino, em referÊncia à moeda origem
 
 ## Conversões disponíveis
 
