@@ -26,7 +26,7 @@ Na raíz do projeto, digite no terminal `/vendor/bin/phpunit tests/`
 
 ## CI
 
-Disponível no GitHub ao dar push/merge na branch master
+Disponível no GitHub ao dar push/merge na branch main
 
 ## CONTATO
 
